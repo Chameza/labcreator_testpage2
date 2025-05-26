@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabCreator - Modular Laboratory Furniture | Chameza Group</title>
+    <meta name="description" content="LabCreator by Chameza Group offers innovative modular laboratory furniture designed for the future. Customizable, sustainable, and professional lab solutions.">
+    <meta name="keywords" content="laboratory furniture, modular lab furniture, lab design, laboratory equipment, scientific furniture, lab solutions">
+    <meta name="author" content="Chameza Group">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="LabCreator - Modular Laboratory Furniture Designed For The Future">
+    <meta property="og:description" content="Innovative, customizable, and sustainable lab solutions by Chameza Group's LabCreator division.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=1200&h=630&fit=crop">
+    <meta property="og:url" content="https://labcreator.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LabCreator - Modular Laboratory Furniture">
+    <meta name="twitter:description" content="Innovative, customizable, and sustainable lab solutions by Chameza Group's LabCreator division.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=1200&h=630&fit=crop">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://labcreator.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧪</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Add Bootstrap JS before closing body tag -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "LabCreator - Chameza Group",
+      "url": "https://labcreator.com",
+      "logo": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=200&h=200&fit=crop",
+      "description": "LabCreator specializes in modular laboratory furniture crafted with precision and sustainability in mind.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-XXX-XXX-XXXX",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://linkedin.com/company/labcreator",
+        "https://twitter.com/labcreator"
+      ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Modular Laboratory Furniture",
+      "description": "Innovative, customizable, and sustainable laboratory furniture solutions",
+      "brand": {
+        "@type": "Brand",
+        "name": "LabCreator"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Chameza Group"
+      },
+      "category": "Laboratory Equipment",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceCurrency": "INR"
+      }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Light Professional Color Palette */
+            --primary-sage: #9CAF88;
+            --secondary-mint: #B8E6B8;
+            --accent-coral: #FFB5A7;
+            --neutral-cream: #F8F6F0;
+            --neutral-pearl: #FEFEFE;
+            --text-charcoal: #2C3E50;
+            --text-slate: #5D6D7E;
+            --text-light: #85929E;
+            --border-soft: #E8F4F8;
+            --shadow-light: rgba(156, 175, 136, 0.1);
+            --shadow-medium: rgba(156, 175, 136, 0.2);
+            --gradient-primary: linear-gradient(135deg, #9CAF88 0%, #B8E6B8 100%);
+            --gradient-secondary: linear-gradient(135deg, #FFB5A7 0%, #FFC3A0 100%);
+            --gradient-hero: linear-gradient(135deg, #F8F6F0 0%, #FEFEFE 100%);
+        }
+
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            line-height: 1.7;
+            color: var(--text-charcoal);
+            overflow-x: hidden;
+            background: var(--neutral-pearl);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 10 20px;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-charcoal);
+        }
+
+        .mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Header */
+        header {
+            background: rgba(254, 254, 254, 0.95);
+            backdrop-filter: blur(20px);
+            box-shadow: 0 2px 40px var(--shadow-light);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid var(--border-soft);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 0;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo i {
+            color: var(--primary-sage);
+            font-size: 1.8rem;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-charcoal);
+            font-weight: 500;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-sage);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background: var(--gradient-primary);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--gradient-hero);
+            padding: 140px 0 100px;
+            position: relative;
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(156,175,136,0.05)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-text {
+            animation: fadeInLeft 1s ease;
+        }
+
+        .hero h1 {
+            font-size: 3.8rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            background: linear-gradient(135deg, var(--text-charcoal) 0%, var(--primary-sage) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.4rem;
+            margin-bottom: 2.5rem;
+            color: var(--text-slate);
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .hero-media {
+            position: relative;
+            animation: fadeInRight 1s ease;
+        }
+
+        .hero-video {
+            width: 100%;
+            height: 400px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px var(--shadow-medium);
+            object-fit: cover;
+        }
+
+        .hero-image-overlay {
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            width: 200px;
+            height: 150px;
+            border-radius: 15px;
+            box-shadow: 0 15px 40px var(--shadow-medium);
+            border: 4px solid var(--neutral-pearl);
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--gradient-primary);
+            color: var(--neutral-pearl);
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px var(--shadow-light);
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px var(--shadow-medium);
+        }
+
+        .cta-button.secondary {
+            background: transparent;
+            color: var(--text-charcoal);
+            border: 2px solid var(--primary-sage);
+        }
+
+        .cta-button.secondary:hover {
+            background: var(--primary-sage);
+            color: var(--neutral-pearl);
+        }
+
+        /* Stats Section */
+        .stats {
+            padding: 80px 0;
+            background: var(--neutral-pearl);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .stat-item {
+            padding: 2rem;
+            border-radius: 15px;
+            background: var(--neutral-cream);
+            transition: all 0.3s ease;
+        }
+
+        .stat-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px var(--shadow-light);
+        }
+
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-sage);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: var(--text-slate);
+            font-weight: 500;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 100px 0;
+            background: var(--neutral-cream);
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--text-charcoal);
+        }
+
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-slate);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+            margin-top: 4rem;
+        }
+
+        .feature-card {
+            background: var(--neutral-pearl);
+            padding: 3rem;
+            border-radius: 25px;
+            box-shadow: 0 10px 40px var(--shadow-light);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid var(--border-soft);
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--gradient-primary);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 60px var(--shadow-medium);
+        }
+
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            background: var(--gradient-primary);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+            color: var(--neutral-pearl);
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-charcoal);
+        }
+
+        .feature-card p {
+            color: var(--text-slate);
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        .feature-image {
+            width: 100%;
+            height: 200px;
+            border-radius: 15px;
+            object-fit: cover;
+            margin-top: 1.5rem;
+            box-shadow: 0 10px 30px var(--shadow-light);
+        }
+
+        /* Video Section */
+        .video-section {
+            padding: 100px 0;
+            background: var(--neutral-pearl);
+            text-align: center;
+        }
+
+        .video-container {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 25px 80px var(--shadow-medium);
+        }
+
+        .main-video {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        /* Benefits Section */
+        .benefits {
+            padding: 100px 0;
+            background: var(--gradient-hero);
+        }
+
+        .benefits-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .benefits-text h2 {
+            font-size: 2.8rem;
+            margin-bottom: 2rem;
+        }
+
+        .benefits-list {
+            list-style: none;
+            margin-top: 2rem;
+        }
+
+        .benefits-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: var(--neutral-pearl);
+            border-radius: 15px;
+            box-shadow: 0 5px 20px var(--shadow-light);
+            transition: all 0.3s ease;
+        }
+
+        .benefits-list li:hover {
+            transform: translateX(10px);
+            box-shadow: 0 10px 30px var(--shadow-medium);
+        }
+
+        .benefit-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--gradient-secondary);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--neutral-pearl);
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        .benefits-image {
+            width: 100%;
+            height: 500px;
+            border-radius: 25px;
+            object-fit: cover;
+            box-shadow: 0 20px 60px var(--shadow-medium);
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 100px 0;
+            background: var(--neutral-cream);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 3rem;
+            margin-top: 4rem;
+        }
+
+        .testimonial-card {
+            background: var(--neutral-pearl);
+            padding: 3rem;
+            border-radius: 25px;
+            box-shadow: 0 15px 50px var(--shadow-light);
+            position: relative;
+            border: 1px solid var(--border-soft);
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: -10px;
+            left: 30px;
+            font-size: 5rem;
+            color: var(--primary-sage);
+            font-family: 'Playfair Display', serif;
+            opacity: 0.3;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 2rem;
+            color: var(--text-slate);
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .author-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary-sage);
+        }
+
+        .author-info h4 {
+            font-weight: 600;
+            color: var(--text-charcoal);
+            margin-bottom: 0.2rem;
+        }
+
+        .author-info p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+      /* Process Section */
+      .process {
+            padding: 100px 0;
+            background: var(--neutral-pearl);
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .process-step {
+            text-align: center;
+            padding: 2.5rem;
+            position: relative;
+            background: var(--neutral-cream);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-soft);
+        }
+
+        .process-step:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px var(--shadow-light);
+        }
+
+        .step-number {
+            width: 70px;
+            height: 70px;
+            background: var(--gradient-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+            color: var(--neutral-pearl);
+            font-size: 1.8rem;
+            font-weight: 700;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .process-step h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-charcoal);
+        }
+
+        .process-step p {
+            color: var(--text-slate);
+            line-height: 1.6;
+        }
+
+        .process-image {
+            width: 100%;
+            height: 150px;
+            border-radius: 15px;
+            object-fit: cover;
+            margin-top: 1.5rem;
+            box-shadow: 0 10px 30px var(--shadow-light);
+        }
+
+        /* FAQ Section */
+        .faq {
+            padding: 100px 0;
+            background: var(--neutral-cream);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--neutral-pearl);
+            margin-bottom: 1.5rem;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px var(--shadow-light);
+            border: 1px solid var(--border-soft);
+        }
+
+        .faq-question {
+            padding: 2rem;
+            background: transparent;
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-charcoal);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .faq-question:hover {
+            background: var(--neutral-cream);
+        }
+
+        .faq-toggle {
+            font-size: 1.5rem;
+            color: var(--primary-sage);
+            transition: transform 0.3s ease;
+        }
+
+        .faq-answer {
+            padding: 0 2rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            background: var(--neutral-cream);
+        }
+
+        .faq-answer.active {
+            padding: 2rem;
+            max-height: 300px;
+        }
+
+        .faq-answer.active + .faq-question .faq-toggle {
+            transform: rotate(45deg);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 100px 0;
+            background: var(--gradient-hero);
+        }
+
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .contact-info h2 {
+            font-size: 2.8rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-info p {
+            font-size: 1.2rem;
+            color: var(--text-slate);
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .contact-details {
+            list-style: none;
+            margin-top: 2rem;
+        }
+
+        .contact-details li {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: var(--neutral-pearl);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px var(--shadow-light);
+        }
+
+        .contact-details i {
+            color: var(--primary-sage);
+            font-size: 1.2rem;
+        }
+
+        .contact-form {
+            background: var(--neutral-pearl);
+            padding: 3rem;
+            border-radius: 25px;
+            box-shadow: 0 20px 60px var(--shadow-light);
+            border: 1px solid var(--border-soft);
+        }
+
+        .form-group {
+            margin-bottom: 2rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+            color: var(--text-charcoal);
+            font-size: 1rem;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid var(--border-soft);
+            border-radius: 12px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: var(--neutral-cream);
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-sage);
+            box-shadow: 0 0 0 3px rgba(156, 175, 136, 0.1);
+            background: var(--neutral-pearl);
+        }
+
+        .submit-btn {
+            background: var(--gradient-primary);
+            color: var(--neutral-pearl);
+            padding: 16px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            box-shadow: 0 10px 30px var(--shadow-light);
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px var(--shadow-medium);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-charcoal);
+            color: var(--neutral-pearl);
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            color: var(--neutral-pearl);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--secondary-mint);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            width: 50px;
+            height: 50px;
+            background: var(--primary-sage);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--neutral-pearl);
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: var(--secondary-mint);
+            transform: translateY(-3px);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+
+        .animate-on-scroll.animated {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Floating Animation */
+        .floating {
+            animation: floating 4s ease-in-out infinite;
+        }
+
+        @keyframes floating {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+
+            .section-title {
+                font-size: 2.2rem;
+            }
+
+            .features-grid,
+            .benefits-content,
+            .testimonials-grid,
+            .process-steps,
+            .contact-content {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                justify-content: center;
+            }
+
+            .hero-video {
+                height: 300px;
+            }
+
+            .main-video {
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .feature-card,
+            .testimonial-card,
+            .contact-form {
+                padding: 2rem;
+            }
+        }
+
+
+        /* Add this to your existing CSS */
+.floating {
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Apply floating class to all images you want to animate */
+.hero-video,
+.feature-image,
+.process-image,
+.benefits-image,
+.testimonial-image {
+    animation: floating 3s ease-in-out infinite;
+}
+
+
+
+    /* Update navbar styles to match your design */
+    .navbar {
+        background: rgba(254, 254, 254, 0.95);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 2px 40px var(--shadow-light);
+        border-bottom: 1px solid var(--border-soft);
+    }
+    
+    .navbar-nav .nav-link {
+        color: var(--text-charcoal);
+        font-weight: 500;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+        padding: 0.5rem 1rem;
+        position: relative;
+    }
+    
+    .navbar-nav .nav-link:hover {
+        color: var(--primary-sage);
+    }
+    
+    .navbar-nav .nav-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background: var(--gradient-primary);
+        transition: width 0.3s ease;
+    }
+    
+    .navbar-nav .nav-link:hover::after {
+        width: 100%;
+    }
+    
+    @media (max-width: 991px) {
+        .navbar-collapse {
+            background: var(--neutral-pearl);
+            padding: 1rem;
+            border-radius: 10px;
+            margin-top: 1rem;
+            box-shadow: 0 5px 20px var(--shadow-light);
+        }
+        
+        .navbar-nav .nav-link {
+            padding: 0.75rem 1rem;
+            text-align: center;
+        }
+    }
+  
+    
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo1.png" alt="LabCreator Logo" class="logo-img" style="height: 75px; width: auto; object-fit: contain; margin-right: 10px;">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home" data-bs-toggle="collapse" data-bs-target="#navbarNav">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#features" data-bs-toggle="collapse" data-bs-target="#navbarNav">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#benefits" data-bs-toggle="collapse" data-bs-target="#navbarNav">Benefits</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials" data-bs-toggle="collapse" data-bs-target="#navbarNav">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#process" data-bs-toggle="collapse" data-bs-target="#navbarNav">Process</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" data-bs-toggle="collapse" data-bs-target="#navbarNav">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    
+  
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Modular Laboratory Furniture Designed For The Future</h1>
+                    <p class="hero-subtitle">Innovative, customizable, and sustainable lab solutions by Chameza Group's LabCreator division. Transform your laboratory with precision-engineered modular furniture.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="cta-button">
+                            <i class="fas fa-rocket"></i>
+                            Get Started Today
+                        </a>
+                        <a href="#video" class="cta-button secondary">
+                            <i class="fas fa-play"></i>
+                            Watch Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <video class="hero-video" autoplay muted loop>
+                        <source src="videoplayback.mp4" type="video/mp4">
+                    </video>
+                    <img src="img/lab-creator.webp" alt="Modern Laboratory" class="hero-image-overlay">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid animate-on-scroll">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Industry Partners</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">99%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Why Choose LabCreator?</h2>
+                <p class="section-subtitle">Discover the advantages that make LabCreator the preferred choice for modern laboratory furniture solutions.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <h3>Modular & Flexible Design</h3>
+                    <p>Easily reconfigure labs to meet evolving needs without costly renovations. Our modular system adapts to your changing requirements with seamless integration.</p>
+                    
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>High Durability & Safety</h3>
+                    <p>Materials and finishes that meet strict safety and durability standards, ensuring long-lasting performance in demanding laboratory environments.</p>
+                    
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>Integrated Utilities</h3>
+                    <p>Smart integration of power, gas, water, and data for a streamlined lab experience that enhances productivity and workflow efficiency.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="video-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">See LabCreator in Action</h2>
+                <p class="section-subtitle">Watch how our modular laboratory furniture transforms research environments worldwide.</p>
+            </div>
+            <div class="video-container animate-on-scroll">
+                <video class="main-video" controls>
+                    <source src="vedioplayback2.mp4" type="video/mp4">
+                </video>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="benefits-content">
+                <div class="benefits-text animate-on-scroll">
+                    <h2>Benefits of Choosing LabCreator</h2>
+                    <p>Experience the comprehensive advantages that come with our innovative laboratory furniture solutions, designed to enhance your research capabilities.</p>
+                    <ul class="benefits-list">
+                        <li>
+                            <div class="benefit-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div>
+                                <strong>Custom Tailored Solutions</strong><br>
+                                Lab furniture designed to match your specific requirements and workflow needs.
+                            </div>
+                        </li>
+                        <li>
+                            <div class="benefit-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <strong>Time & Cost Savings</strong><br>
+                                Quick installation and minimal downtime to keep your operations running smoothly.
+                            </div>
+                        </li>
+                        <li>
+                            <div class="benefit-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div>
+                                <strong>Eco-Friendly Materials</strong><br>
+                                Sustainable materials contributing to your environmental and sustainability goals.
+                            </div>
+                        </li>
+                        <li>
+                            <div class="benefit-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div>
+                                <strong>Expert Support</strong><br>
+                                Comprehensive support from initial design consultation to after-sales service.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="animate-on-scroll">
+                    <img src="img/lab-creator.webp" alt="Laboratory Benefits" class="lab-creator-image" style="width: 100%; height: 100%; object-fit: cover; display: block; max-height: none;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Trusted By Industry Leaders</h2>
+                <p class="section-subtitle">Hear from our satisfied clients who have transformed their laboratories with LabCreator solutions.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll">
+                    <p class="testimonial-text">"LabCreator's modular solutions have revolutionized our lab infrastructure, delivering unmatched flexibility and quality. The installation was seamless and the results exceeded our expectations in every way."</p>
+                    <div class="testimonial-author">
+                        <svg class="author-avatar" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="28" fill="#9CAF88" stroke="white" stroke-width="2"/>
+                            <path d="M30 20c-4 0-7 3-7 7s3 7 7 7 7-3 7-7-3-7-7-7zm0 16c-8 0-14 4-14 8v4h28v-4c0-4-6-8-14-8z" fill="white"/>
+                        </svg>
+                        <div class="author-info">
+                            <h4>Dr. Sameer Patel</h4>
+                            <p>Head of R&D, BioGen Labs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <p class="testimonial-text">"Chameza Group's LabCreator team provided exceptional consultation and flawless installation for our new research facility. Their attention to detail and professional approach was outstanding throughout the entire process."</p>
+                    <div class="testimonial-author">
+                        <svg class="author-avatar" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="28" fill="#9CAF88" stroke="white" stroke-width="2"/>
+                            <path d="M30 20c-4 0-7 3-7 7s3 7 7 7 7-3 7-7-3-7-7-7zm0 16c-8 0-14 4-14 8v4h28v-4c0-4-6-8-14-8z" fill="white"/>
+                        </svg>
+                        <div class="author-info">
+                            <h4>Ms. Neha Sharma</h4>
+                            <p>Lab Manager, Quantum Pharmaceuticals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">How Chameza Group Executes Laboratory Projects</h2>
+                <p class="section-subtitle">Our comprehensive 6-step process ensures flawless execution from concept to completion.</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step animate-on-scroll">
+                    <div class="step-number">1</div>
+                    <h3>In-Depth Consultation</h3>
+                    <p>Understanding your unique laboratory needs, workflows, and compliance requirements through detailed discussions with your team.</p>
+                    <img src="img/in-dept-consultation.webp" alt="Consultation" class="process-image">
+                </div>
+                <div class="process-step animate-on-scroll">
+                    <div class="step-number">2</div>
+                    <h3>Customized Design & Planning</h3>
+                    <p>Expert designers craft tailored lab layouts focusing on safety, efficiency, and future scalability requirements.</p>
+                    <img src="img/lab-design.webp" alt="Design Planning" class="process-image">
+                </div>
+                <div class="process-step animate-on-scroll">
+                    <div class="step-number">3</div>
+                    <h3>Precision Manufacturing</h3>
+                    <p>All furniture manufactured with stringent quality checks, ensuring durability and compliance with industry standards.</p>
+                    <img src="img/modular-lab-furniture.webp" alt="Manufacturing" class="process-image">
+                </div>
+                <div class="process-step animate-on-scroll">
+                    <div class="step-number">4</div>
+                    <h3>Expert Installation & Setup</h3>
+                    <p>Skilled technicians handle on-site installation, adhering to project timelines and ensuring flawless setup.</p>
+                    <img src="img/lab-installation.webp" alt="Installation" class="process-image">
+                </div>
+                <div class="process-step animate-on-scroll">
+                    <div class="step-number">5</div>
+                    <h3>Comprehensive Quality Assurance</h3>
+                    <p>Rigorous post-installation inspections guarantee every detail meets our high standards before project handover.</p>
+                    <img src="img/quality-check.webp" alt="Quality Check" class="process-image">
+                </div>
+                <div class="process-step animate-on-scroll">
+                    <div class="step-number">6</div>
+                    <h3>Dedicated After-Sales Support</h3>
+                    <p>Ongoing support and maintenance services to keep your laboratory fully operational and up-to-date.</p>
+                    <img src="img/after-sales-services.webp" alt="Support" class="process-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Find answers to common questions about our modular laboratory furniture solutions.</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question">
+                        What materials do you use for lab furniture?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We use eco-friendly, durable materials like high-pressure laminates, powder-coated steel, and chemical-resistant surfaces designed specifically for laboratory safety and longevity. All materials meet international standards for laboratory environments.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question">
+                        Can I customize the furniture layout?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our modular design allows for complete customization. We work closely with you to create layouts that match your specific workflow requirements, space constraints, and future expansion plans.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question">
+                        How long does installation typically take?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Installation time varies based on project size and complexity. Most standard lab setups are completed within 2-5 days with minimal disruption to your operations. We provide detailed timelines during the planning phase.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question">
+                        Do you provide maintenance services?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we offer comprehensive maintenance and support services to ensure your laboratory furniture continues to perform optimally throughout its lifespan. Our service packages include regular inspections, repairs, and upgrades.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question">
+                        What safety standards do you follow?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We adhere to international safety standards including ISO, OSHA, and local regulatory requirements. Our furniture is designed to handle chemical exposure, fire resistance, and ergonomic safety for laboratory personnel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll">
+                    <h2>Get in Touch</h2>
+                    <p>Ready to transform your laboratory with our innovative modular furniture solutions? Contact our expert team today for a personalized consultation.</p>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8828991702</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>sales@labcreator.in</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Office no.104 & 103, Raj swastik chs ltd., daulat nagar road no.3, post office lane, Maharashtra 400066</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Fri: 9:00 AM - 6:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+                <form class="contact-form animate-on-scroll">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your laboratory requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="img/logo2.png" alt="LabCreator Logo" class="footer-logo-img">
+                    </div>
+                    <p>Innovative modular laboratory furniture designed for the future of scientific research.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="#features">Features</a></p>
+                    <p><a href="#benefits">Benefits</a></p>
+                    <p><a href="#process">Process</a></p>
+                    <p><a href="#contact">Contact</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <p><a href="#">Lab Design</a></p>
+                    <p><a href="#">Installation</a></p>
+                    <p><a href="#">Maintenance</a></p>
+                    <p><a href="#">Consultation</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>sales@labcreator.in</p>
+                    <p>+91 8828991702</p>
+                    <p>Office no.104 & 103, Raj swastik chs ltd., daulat nagar road no.3, post office lane, Maharashtra 400066</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #444;">&copy; 2025 Chameza Group - LabCreator. All rights reserved.</p>
+            <p>Designed and developed by Chameza Group IT. <a href="#" style="color: var(--secondary-mint);">Privacy Policy</a> | <a href="#" style="color: var(--secondary-mint);">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animated');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const toggle = question.querySelector('.faq-toggle');
+                
+                // Close all other FAQ items
+                document.querySelectorAll('.faq-answer').forEach(otherAnswer => {
+                    if (otherAnswer !== answer) {
+                        otherAnswer.classList.remove('active');
+                        otherAnswer.previousElementSibling.querySelector('.faq-toggle').textContent = '+';
+                    }
+                });
+                
+                // Toggle current FAQ item
+                answer.classList.toggle('active');
+                toggle.textContent = answer.classList.contains('active') ? '−' : '+';
+            });
+        });
+
+        // Form submission with enhanced validation
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const name = formData.get('name').trim();
+            const email = formData.get('email').trim();
+            const message = formData.get('message').trim();
+            
+            // Enhanced validation
+            if (!name || name.length < 2) {
+                alert('Please enter a valid name (at least 2 characters).');
+                return;
+            }
+            
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!email || !emailRegex.test(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+            
+            if (!message || message.length < 10) {
+                alert('Please enter a message (at least 10 characters).');
+                return;
+            }
+            
+            // Simulate form submission
+            const submitBtn = this.querySelector('.submit-btn');
+            const originalHTML = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            submitBtn.disabled = true;
+            
+            setTimeout(() => {
+                alert('Thank you for your message! We will get back to you within 24 hours.');
+                this.reset();
+                submitBtn.innerHTML = originalHTML;
+                submitBtn.disabled = false;
+            }, 2000);
+        });
+
+        // Header scroll effect with enhanced styling
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(254, 254, 254, 0.95)';
+                header.style.backdropFilter = 'blur(20px)';
+                header.style.boxShadow = '0 5px 30px rgba(156, 175, 136, 0.15)';
+            } else {
+                header.style.background = 'rgba(254, 254, 254, 0.95)';
+                header.style.backdropFilter = 'blur(20px)';
+                header.style.boxShadow = '0 2px 40px rgba(156, 175, 136, 0.1)';
+            }
+        });
+
+        // Counter animation for stats
+        function animateCounters() {
+            const counters = document.querySelectorAll('.stat-number');
+            counters.forEach(counter => {
+                const target = parseInt(counter.textContent.replace(/\D/g, ''));
+                const suffix = counter.textContent.replace(/\d/g, '');
+                let current = 0;
+                const increment = target / 100;
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        counter.textContent = target + suffix;
+                        clearInterval(timer);
+                    } else {
+                        counter.textContent = Math.floor(current) + suffix;
+                    }
+                }, 20);
+            });
+        }
+
+        // Trigger counter animation when stats section is visible
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        });
+
+        const statsSection = document.querySelector('.stats');
+        if (statsSection) {
+            statsObserver.observe(statsSection);
+        }
+
+        // Enhanced loading animation
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.8s ease';
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+
+        // Parallax effect for floating elements
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const floating = document.querySelectorAll('.floating');
+            floating.forEach(element => {
+                const speed = 0.5;
+                element.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+
+        // Enhanced mobile menu (if needed)
+        const createMobileMenu = () => {
+            if (window.innerWidth <= 768) {
+                const nav = document.querySelector('nav');
+                const navLinks = document.querySelector('.nav-links');
+                
+                if (!document.querySelector('.mobile-menu-btn')) {
+                    const mobileBtn = document.createElement('button');
+                    mobileBtn.className = 'mobile-menu-btn';
+                   
+                    mobileBtn.style.cssText = `
+                        background: none;
+                        border: none;
+                        font-size: 1.5rem;
+                        color: var(--text-charcoal);
+                        cursor: pointer;
+                        display: block;
+                    `;
+                    
+                    mobileBtn.addEventListener('click', () => {
+                        navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+                        navLinks.style.flexDirection = 'column';
+                        navLinks.style.position = 'absolute';
+                        navLinks.style.top = '100%';
+                        navLinks.style.left = '0';
+                        navLinks.style.right = '0';
+                        navLinks.style.background = 'var(--neutral-pearl)';
+                        navLinks.style.padding = '1rem';
+                        navLinks.style.boxShadow = '0 5px 20px var(--shadow-light)';
+                    });
+                    
+                    nav.appendChild(mobileBtn);
+                }
+            }
+        };
+
+        window.addEventListener('resize', createMobileMenu);
+        createMobileMenu();
+
+        // SEO and Performance optimizations
+        // Lazy loading for images
+        const images = document.querySelectorAll('img');
+        const imageObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    if (img.dataset.src) {
+                        img.src = img.dataset.src;
+                        img.removeAttribute('data-src');
+                    }
+                    imageObserver.unobserve(img);
+                }
+            });
+        });
+
+        images.forEach(img => {
+            if (img.src) {
+                img.dataset.src = img.src;
+                img.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1"><rect width="1" height="1" fill="%23f0f0f0"/></svg>';
+            }
+            imageObserver.observe(img);
+        });
+
+        // Preload critical resources
+        const preloadLinks = [
+            'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap',
+            'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+        ];
+
+        preloadLinks.forEach(href => {
+            const link = document.createElement('link');
+            link.rel = 'preload';
+            link.as = 'style';
+            link.href = href;
+            document.head.appendChild(link);
+        });
+
+        // Add structured data for better SEO
+        const addStructuredData = () => {
+            const structuredData = {
+                "@context": "https://schema.org",
+                "@type": "WebPage",
+                "name": "LabCreator - Modular Laboratory Furniture",
+                "description": "Innovative, customizable, and sustainable lab solutions by Chameza Group's LabCreator division.",
+                "url": window.location.href,
+                "mainEntity": {
+                    "@type": "Organization",
+                    "name": "LabCreator",
+                    "description": "Modular laboratory furniture designed for the future"
+                }
+            };
+
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.textContent = JSON.stringify(structuredData);
+            document.head.appendChild(script);
+        };
+
+        addStructuredData();
+
+        // Performance monitoring
+        window.addEventListener('load', () => {
+            if ('performance' in window) {
+                const loadTime = performance.timing.loadEventEnd - performance.timing.navigationStart;
+                console.log(`Page load time: ${loadTime}ms`);
+            }
+        });
+
+        // Add keyboard navigation support
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Tab') {
+                document.body.classList.add('keyboard-navigation');
+            }
+        });
+
+        document.addEventListener('mousedown', () => {
+            document.body.classList.remove('keyboard-navigation');
+        });
+
+        // Add focus styles for keyboard navigation
+        const style = document.createElement('style');
+        style.textContent = `
+            .keyboard-navigation *:focus {
+                outline: 2px solid var(--primary-sage) !important;
+                outline-offset: 2px !important;
+            }
+        `;
+        document.head.appendChild(style);
+
+
+
+      
+    document.addEventListener('DOMContentLoaded', function() {
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    });
+   
+    </script>
+</body>
+</html>
